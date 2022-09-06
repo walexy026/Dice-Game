@@ -1,23 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="./dice--6.png" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="./dice--6.png" type="image/x-icon" />
     <title>Dice Game</title>
-</head>
-<body>
-<main>
-    <section></section>
-    <section></section>
-    <img src="dice--1.png" alt="dice--1">
-    <button></button>
-    <button></button>
-    <button></button>
-</main>
+  </head>
+  <body>
+    <main>
+      <section id="player--1" class="player--1">
+        <h2>PLAYER 1</h2>
+        <h1 id="activescore--1">0</h1>
+        <div class="current">
+          <p>CURRENT</p>
+          <p id="currentScore--1">0</p>
+        </div>
+      </section>
+      <section id="player--2" class="player--2">
+        <h2>PLAYER 2</h2>
+        <h1 id="activescore--2">0</h1>
+        <div class="current">
+          <p>CURRENT</p>
+          <p id="currentScore--2">0</p>
+        </div>
+      </section>
+       <img src="dice--1.png" alt="dice--1" />
+      <button class="btn" id="restart">🔁 New Game</button>
+      <button class="btn" id="roll-dice">🎲 Roll Dice</button>
+      <button class="btn" id="hold">💫 Hold</button> 
+    </main>
 
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
