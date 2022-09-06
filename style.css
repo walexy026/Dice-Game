@@ -65,10 +65,10 @@ margin-top: 1rem;
     /* display: none; */
     /* display: none; */
 }
-#currentScore--1{
+#currentScore--0{
     font-size: 30px;
 }
-#currentScore--2{
+#currentScore--1{
     font-size: 30px;
 }
 img{
@@ -107,4 +107,7 @@ bottom: 15px;
 }
 .hidden{
     display: none;
+}
+.winnerPlayer{
+    background-color: cadetblue;
 }
